@@ -20,3 +20,4 @@ The easiest way to use this system is to copy paste the contents of the JS file.
 I would recommend self hosting however, as you get to keep the the warning page on your own domain, and your site will still work in the event my site goes down.
 
 you can do this like you would any other html page and js file, and just change the redirect url in the js file to fit your needs.
+![7pDm](https://user-images.githubusercontent.com/33640860/153212360-752996a0-8df8-41e1-8a3c-0c66108c34e5.png)
