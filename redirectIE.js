@@ -1,1 +1,1 @@
-if(window.document.documentMode){window.location.replace("https://www.aspy.dev/internal/IE.html")};
+if(window.document.documentMode){window.location.replace("https://aspy.dev/internal/IE.html")};
