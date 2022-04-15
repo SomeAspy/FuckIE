@@ -9,13 +9,13 @@ For a full list of features Internet Explorer is lacking, see https://caniuse.co
 
 Instead of using outdated garbage code, this repos files will redirect to a site explaining in a user friendly way why Internet Explorer is bad, and offer alternatives.
 
-By default, if you just copy paste the JS file in this repo, it will direct users to https://www.aspy.dev/internal/IE
+By default, if you just copy paste the JS file in this repo, it will direct users to https://ie.aspy.dev
 
 You are welcome to use my site to serve as a CDN to serve this webpage.
 
 The easiest way to use this system is to copy paste the contents of the JS file. you can also just put
 
-`<script src="https://aspy.dev/scripts/redirectIE.js"></script>` in your html.
+`<script src="https://ie.aspy.dev/redirectIE.js"></script>` in your html.
 
 I would recommend self hosting however, as you get to keep the the warning page on your own domain, and your site will still work in the event my site goes down.
 
