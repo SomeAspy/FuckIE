@@ -1,23 +1,20 @@
 # FuckIE
-Fuck Internet Explorer, Redirect users to a page explaining why it's bad.
 
-I have a strong dislike for Internet Explorer. People still use it!
+This repository provides a JavaScript file that redirects users who access your website using Internet Explorer to a page explaining why it's not recommended, and offer alternative browsers.
 
-This results in a lot of basic web implementations breaking if you have a user that comes to your site using Internet Explorer.
+It's important to note that Internet Explorer lacks many modern web features and can cause issues with web implementations.
 
-For a full list of features Internet Explorer is lacking, see https://caniuse.com/?compare=ie+11&compareCats=all#results
+For a full list of limitations of Internet Explorer, you can check out this link: https://caniuse.com/?compare=ie+11&compareCats=all#results
 
-Instead of using outdated garbage code, these repos files will redirect to a site explaining in a user-friendly way why Internet Explorer is bad, and offer alternatives.
+By default, the JS file in this repository redirects users to the website https://ie.aspy.dev, which provides a user-friendly explanation and alternative browser suggestions.
+You can use this website as a CDN to serve the redirect page or self-host the page to have better reliability.
 
-By default, if you just copy and paste the JS file in this repo, it will direct users to https://ie.aspy.dev
+To use the redirection script, you can include the following script tag in your HTML:
+```html
+<script src="https://ie.aspy.dev/redirectIE.js"></script>
+```
 
-You are welcome to use my site to serve as a CDN to serve this webpage.
+Alternatively, you can copy and paste the contents of the JS file and host it on your own domain.
+You can also customize the redirect URL in the JS file to fit your needs.
 
-The easiest way to use this system is to copy and paste the contents of the JS file. You can also just put
-
-`<script src="https://ie.aspy.dev/redirectIE.js"></script>` in your HTML.
-
-I would recommend self-hosting, however, as you get to keep the warning page on your own domain, and your site will still work in the event my site goes down.
-
-You can do this like you would any other HTML page and JS file, and just change the redirect URL in the JS file to fit your needs.
 ![preview](https://files.catbox.moe/d3gjyi.png)
