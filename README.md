@@ -17,4 +17,4 @@ To use the redirection script, you can include the following script tag in your 
 Alternatively, you can copy and paste the contents of the JS file and host it on your own domain.
 You can also customize the redirect URL in the JS file to fit your needs.
 
-![preview](https://files.catbox.moe/d3gjyi.png)
+![preview](https://files.catbox.moe/qjfitw.png)
