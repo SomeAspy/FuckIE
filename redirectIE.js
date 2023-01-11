@@ -1,1 +1,1 @@
-(-1!==navigator.userAgent.indexOf("MSIE")||navigator.appVersion.indexOf("Trident/")>0)&&window.location.replace("https://ie.aspy.dev");
+(window.navigator.userAgent.indexOf("MSIE ")>0||navigator.userAgent.match(/Trident.*rv\:11\./))&&(window.location.href="https://ie.aspy.dev/");
